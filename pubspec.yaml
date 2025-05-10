@@ -1,0 +1,46 @@
+name: notes_app
+description: A Flutter notes application with Firebase integration
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'  # More flexible version constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6  # Slightly lower stable version
+
+  # UI
+  flutter_staggered_grid_view: ^0.7.0
+
+  # Date formatting
+  intl: ^0.18.1  # More stable version for Flutter
+
+  # Firebase Core (required for all Firebase services)
+  firebase_core: ^2.18.0  # Recommended stable version for Flutter
+
+  # Firebase Authentication
+  firebase_auth: ^4.12.0  # Works well with current Flutter versions
+
+  # Cloud Firestore
+  cloud_firestore: ^4.13.0  # Stable version with good Flutter support
+
+  # Image handling
+  image_picker: ^1.0.7  # Correct version
+
+  # Local storage
+  shared_preferences: ^2.2.2  # Added for caching profile photos
+  path_provider: ^2.1.1  # Slightly more stable version
+
+  # Helpers
+  uuid: ^3.0.7  # Added for generating unique IDs if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1  # More stable version for linting
+
+flutter:
+  uses-material-design: true
+   # Example asset directory
