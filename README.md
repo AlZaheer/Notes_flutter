@@ -1,40 +1,42 @@
-![Screenshot_20250510_224736](https://github.com/user-attachments/assets/bca76e24-498c-42a6-a328-ff9cac94b459)📝 Notes App (Flutter + Firebase)
-A beautifully designed Notes App built with Flutter and Firebase, offering user authentication, real-time CRUD operations, and category-based note management with persistent profile photos.
 
-🔥 Features
-🔐 User Authentication (Email & Password)
+# Notes App with Firebase
 
-📸 Upload and display profile photo
+A Flutter-based notes app with CRUD operations using Firebase. Users can register, log in, add, view, update, and delete notes. The app supports categories, color-coded notes, and a user profile photo.
 
-📝 Create, Read, Update, Delete Notes
+## Features
 
-🗂️ Categories (Work, Personal, Food, Bills, Other)
+- **User Authentication**: Register and log in with Firebase Authentication.
+- **CRUD Operations**: Create, read, update, and delete notes.
+- **Notes Categories**: Categorize notes into "Work", "Personal", "Food", "Bills", and "Other".
+- **Profile Photo**: Display the user's profile photo.
+- **Responsive UI**: UI designed for mobile devices using Flutter.
+  
+## Screenshots
 
-🎨 Color-coded Notes (random pastel colors)
+<h3>📱 Screenshots</h3>
 
-📅 Timestamps for every note
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/89fe5bcf-581a-40f8-bb34-1ba5121e0d73" width="200" />
+  <img src="https://github.com/user-attachments/assets/4dd3b0d2-cfcc-42ca-b146-b00c8ea98551" width="200" />
+  <img src="https://github.com/user-attachments/assets/52c9ebec-dfde-4879-9627-12921d10dddf" width="200" />
+   <img src="https://github.com/user-attachments/assets/543f22fc-3acd-4c98-bab8-f1bc07327ae8" width="200" />
+  
+</p>
 
-🔄 Live Updates (notes show instantly after creation)
+## Technologies Used
 
-🧹 Swipe to Delete functionality
+- **Flutter**: For building the UI and app logic.
+- **Firebase**: For user authentication and storing notes.
+- **Cloud Firestore**: To store the user's notes.
+- **Firebase Storage**: To store the user profile photo.
 
-🔥 Firebase Firestore for real-time data storage
+## Setup
 
-🚀 Tech Stack
-Flutter (Frontend)
+To run this project locally, follow these steps:
 
-Firebase Authentication (Login/Register)
+### Prerequisites
 
-Firebase Firestore (Note Storage)
-
-Firebase Storage (Profile Pictures)
-
-Provider / setState for state management
+- Install Flutter from the official website: https://flutter.dev/docs/get-started/install
+- Install Firebase CLI: https://firebase.google.com/docs/cli
 
 
-📱 Screenshots
-![Screenshot_20250510_225137](https://github.com/user-attachments/assets/89fe5bcf-581a-40f8-bb34-1ba5121e0d73)
-![Screenshot_20250510_225132](https://github.com/user-attachments/assets/4dd3b0d2-cfcc-42ca-b146-b00c8ea98551)
-
-![Screenshot_20250510_224729](https://github.com/user-attachments/assets/52c9ebec-dfde-4879-9627-12921d10dddf)
-![Screenshot_20250510_224736](https://github.com/user-attachments/assets/543f22fc-3acd-4c98-bab8-f1bc07327ae8)
